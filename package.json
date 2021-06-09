@@ -2,6 +2,10 @@
   "name": "vega",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.14.1",
+    "node": "14.16.1"
+  },
   "scripts": {
     "start": "cross-env BROWSER=none PORT=3010 react-scripts start",
     "build": "react-scripts build",
