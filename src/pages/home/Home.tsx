@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <div className={style.content}>
       <Input placeholder="在這裡貼上 Google Sheet 網址" onChange={onUrlPaste} />
-      hi
+      hi222
     </div>
   );
 };
