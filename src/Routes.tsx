@@ -5,13 +5,11 @@ const route = {
   Home: loadable(() => import('./pages/home/Home')),
 };
 
-const AppRoutes = () => {
-  return (
-    <Switch>
-      <Route exact={true} path="/" component={route.Home} />
-      <Redirect to="/" />
-    </Switch>
-  );
-};
+const AppRoutes = () => (
+  <Switch>
+    <Route exact={true} path="/" component={route.Home} />
+    <Redirect to="/" />
+  </Switch>
+);
 
 export default AppRoutes;
